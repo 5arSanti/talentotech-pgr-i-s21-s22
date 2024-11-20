@@ -1,6 +1,8 @@
+/* eslint-disable react/prop-types */
+
 import "./styles.css"
 
-const ComponenteConPropiedades = ({nombre, correo}) => {
+const ComponenteConPropiedades = ({nombre="Tu nombre", correo="correo@example.com"}) => {
     return(
         <div className="properties-component">
             <h1>Este es un componente con propiedades</h1>

@@ -9,10 +9,8 @@ const App = () => {
             <p>Hola, esta es mi primera pagina web con React.js</p>
             <ComponenteBasico/>
 
-            <ComponenteConPropiedades 
-                nombre={"Pepito Perez"} 
-                correo={"correo1.propiedades@email.com"}
-            />
+            <ComponenteConPropiedades/>
+            
             <ComponenteConPropiedades 
                 nombre={"Carlos Patiño"} 
                 correo={"correo2.propiedades@email.com"}
