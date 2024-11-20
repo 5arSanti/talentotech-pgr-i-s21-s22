@@ -1,6 +1,13 @@
+import { ComponenteBasico } from "../Components/ComponenteBasico";
+
+import "./App.css";
+
 const App = () => {
     return(
-        <p>Hola, esta es mi primera pagina web con React.js</p>
+        <div>
+            <p>Hola, esta es mi primera pagina web con React.js</p>
+            <ComponenteBasico/>
+        </div>
     )
 }
 

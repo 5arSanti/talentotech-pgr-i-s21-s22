@@ -1,9 +1,11 @@
+import "./styles.css";
+
 const ComponenteBasico = () => {
     return(
-        <div>
+        <div className="basic-component-container">
             <h1>Este es un componente basico</h1>
 
-            <p>React, se puede utilizar como una fucion de HTML, CSS y JavaScript</p>
+            <p>React, se puede utilizar como una fusion de HTML, CSS y JavaScript</p>
             <p>Cada componente es una funcion de tipo flecha, que retorna leguaje JSX (Muy similar al HTML)</p>
 
             <p>Los componentes son secciones de codigo que se pueden reutilizar las veces que un proyecto requiera</p>
