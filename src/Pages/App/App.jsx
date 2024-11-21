@@ -1,4 +1,5 @@
 import { ComponenteBasico } from "../Components/ComponenteBasico";
+import { ComponenteConEfectos } from "../Components/ComponenteConEfectos";
 import { ComponenteConEstados } from "../Components/ComponenteConEstados";
 import { ComponenteConPropiedades } from "../Components/ComponenteConPropiedades";
 
@@ -18,6 +19,8 @@ const App = () => {
             />
 
             <ComponenteConEstados/>
+
+            <ComponenteConEfectos/>
         </div>
     )
 }
