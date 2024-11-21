@@ -1,4 +1,5 @@
 import { ComponenteBasico } from "../Components/ComponenteBasico";
+import { ComponenteConEstados } from "../Components/ComponenteConEstados";
 import { ComponenteConPropiedades } from "../Components/ComponenteConPropiedades";
 
 import "./App.css";
@@ -15,6 +16,8 @@ const App = () => {
                 nombre={"Carlos Patiño"} 
                 correo={"correo2.propiedades@email.com"}
             />
+
+            <ComponenteConEstados/>
         </div>
     )
 }
